@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <title>Chanele CV</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Chanele CV</h1>
+            <ul>
+                <li><a href="index.html">CV</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CV Page -->
+    <main id="cv-page">
+        <h2>About Me</h2>
+        <div class="tabs">
+            <button class="tab-link active" onclick="openTab(event, 'profile')">Profile</button>
+            <button class="tab-link" onclick="openTab(event, 'experience')">Experience</button>
+            <button class="tab-link" onclick="openTab(event, 'skills')">Skills</button>
+        </div>
+
+        <div id="profile" class="tab-content active flex-content">
+            <img src="assets/tentee-photo.jpg" alt="Chanele Brinda" class="profile-pic">
+            <p>Web Developer with expertise in React, WordPress, and PHP, aiming to become a cloud solutions expert in DevOps. Passionate about technology and innovation.</p>
+        </div>
+
+        <div id="experience" class="tab-content">
+            <h3>Experience</h3>
+            <div class="card">
+                <h4>Tentee Global - Web Developer</h4>
+                <p>Worked on multiple WordPress plugins and web applications using PHP, Bootstrap, and Stripe API.</p>
+            </div>
+            <div class="card">
+                <h4>Project: Infinity Motivation</h4>
+                <p>Developed a platform to generate cover letters using ChatGPT API with ReactJS.</p>
+            </div>
+        </div>
+
+        <div id="skills" class="tab-content">
+            <h3>Skills</h3>
+            <ul>
+                <li>React</li>
+                <li>WordPress Plugin Development</li>
+                <li>PHP, Laravel</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>AJAX, jQuery</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Chanele CV Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

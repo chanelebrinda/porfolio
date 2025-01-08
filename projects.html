@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="theme-color" content="#000000"> -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <title>Chanele CV Projects</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Chanele CV</h1>
+            <ul>
+                <li><a href="index.html">CV</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Projects Page -->
+    <main id="projects-page">
+        <h2>My Projects</h2>
+        <div class="tabs">
+            <button class="tab-link active" onclick="openTab(event, 'web-projects')">Web Projects</button>
+            <button class="tab-link" onclick="openTab(event, 'apps')">Apps</button>
+            <button class="tab-link" onclick="openTab(event, 'bots')">Bots</button>
+        </div>
+
+        <div id="web-projects" class="tab-content active">
+            <div class="card">
+                <img src="assets/img30.jpg" alt="PetNutri">
+                <h3>PetNutri</h3>
+                <p>An AI-powered pet food recommendation platform using React and Django.</p>
+            </div>
+            <div class="card">
+                <img src="assets/img34.jpg" alt="03 Flowers">
+                <h3>03 Flowers</h3>
+                <p>Online flower sales store built with WordPress and WooCommerce.</p>
+            </div>
+        </div>
+
+        <div id="apps" class="tab-content">
+            <div class="card">
+                <img src="assets/img49.jpg" alt="Mix&Eat">
+                <h3>Mix&Eat</h3>
+                <p>A recipe app with personalized recommendations and diet adaptation.</p>
+            </div>
+            <div class="card">
+                <img src="assets/img56.jpg" alt="MeetWorld">
+                <h3>MeetWorld</h3>
+                <p>A mobile app for discovering events and connecting with communities.</p>
+            </div>
+        </div>
+
+        <div id="bots" class="tab-content">
+            <div class="card">
+                <img src="assets/img103.jpg" alt="Shopify Bot">
+                <h3>Shopify Bot</h3>
+                <p>A bot to scrape product information from Shopify websites.</p>
+            </div>
+            <div class="card">
+                <img src="assets/img107.jpg" alt="Vinted Bot">
+                <h3>Vinted Bot</h3>
+                <p>A Discord bot to scrape and share new items posted on Vinted.</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
