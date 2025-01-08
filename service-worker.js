@@ -9,6 +9,8 @@ const urlsToCache = [
     '/porfolio/assets/img30.jpg',
     '/porfolio/assets/img34.jpg',
     '/porfolio/assets/img49.jpg',
+    '/porfolio/assets/logo192.png',
+    '/porfolio/assets/logo512.png',
     '/porfolio/assets/img56.jpg',
     '/porfolio/assets/img103.jpg',
     '/porfolio/assets/img107.jpg'
