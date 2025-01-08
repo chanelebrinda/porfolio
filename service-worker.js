@@ -1,18 +1,18 @@
 const CACHE_NAME = 'chanele-cv-cache-v1';
 const urlsToCache = [
-    '/portfolio/',
-    '/portfolio/index.html',
-    '/portfolio/projects.html',
-    '/portfolio/style.css',
-    '/portfolio/script.js',
-    '/portfolio/manifest.json',
-    '/portfolio/photo.jpg',
-    '/portfolio/assets/img30.jpg',
-    '/portfolio/assets/img34.jpg',
-    '/portfolio/assets/img49.jpg',
-    '/portfolio/assets/img56.jpg',
-    '/portfolio/assets/img103.jpg',
-    '/portfolio/assets/img107.jpg'
+    '/porfolio/',
+    '/porfolio/index.html',
+    '/porfolio/projects.html',
+    '/porfolio/style.css',
+    '/porfolio/script.js',
+    '/porfolio/manifest.json',
+    '/porfolio/photo.jpg',
+    '/porfolio/assets/img30.jpg',
+    '/porfolio/assets/img34.jpg',
+    '/porfolio/assets/img49.jpg',
+    '/porfolio/assets/img56.jpg',
+    '/porfolio/assets/img103.jpg',
+    '/porfolio/assets/img107.jpg'
 ];
 
 self.addEventListener('install', (event) => {
