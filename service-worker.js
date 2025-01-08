@@ -6,7 +6,6 @@ const urlsToCache = [
     '/porfolio/style.css',
     '/porfolio/script.js',
     '/porfolio/manifest.json',
-    '/porfolio/photo.jpg',
     '/porfolio/assets/img30.jpg',
     '/porfolio/assets/img34.jpg',
     '/porfolio/assets/img49.jpg',
