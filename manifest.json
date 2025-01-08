@@ -2,7 +2,7 @@
     "name": "Chanele CV",
     "short_name": "ChaneleCV",
     "description": "Portfolio et CV de Chanele Azanfack Kemgou Brinda, Développeuse Web.",
-    "start_url": "index.html",
+    "start_url": "/porfolio/index.html",
     "display": "standalone",
     "background_color": "#000000",
     "theme_color": "#000000",
