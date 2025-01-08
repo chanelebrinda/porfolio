@@ -14,4 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById(tabId).classList.add('active');
         event.currentTarget.classList.add('active');
     };
+
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/service-worker.js')
+            .then(reg => console.log('Service Worker registered:', reg))
+            .catch(err => console.error('Service Worker registration failed:', err));
+    }
 });
